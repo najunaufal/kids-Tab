@@ -1,0 +1,57 @@
+.div {
+  border: 5px solid yellow;
+  width: 1200px;
+  border-radius: 20px;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+ 
+}
+.smalldiv1 {
+  height: 175px;
+  border: 2px solid yellow;
+  margin-top: 10px;
+  box-shadow: 10px 10px 18px gray ;
+}
+.smalldiv.smalldiv1 {
+  margin-top: 5px;
+  height: 260px;
+  box-shadow: 10px 10px 18px gray ;
+}
+.abutton {
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family:Comic Sans MS;
+  box-shadow: 15px 10px 8px gray;
+  display: grid;
+  height: 75px;
+  width: 90px;
+  text-align: center;
+}
+.color1{
+    background-color:lightcoral;
+}
+.color2{
+    background-color:greenyellow;
+}
+.color3{
+    background-color: lightsalmon;
+}
+.color4{
+    background-color: orange;
+}
+.color5{
+    background-color: lightblue;
+}
+
+.input {
+  height: 100%;
+  border-radius: 7px;
+  width: 100%;
+  text-align: end;
+  font-weight: bolder;
+  font-size: 70px;
+}
+

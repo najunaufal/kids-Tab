@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tab.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>KIDS TAB</title>
+</head>
+
+<body>
+    <div class="row div mt-5 ms-5" style="height:500px; border: 10px solid yellowgreen;">
+        <div id="letters" class="div col-9 pt-3" style="background-image:url('bgimage.jpg');">
+
+
+
+            <button type="button" class="abutton color1" onclick="show('1');">1</button>
+            <button type="button" class="abutton color2" onclick="show('2');">2</button>
+            <button type="button" class="abutton color3" onclick="show('3');">3</button>
+            <button type="button" class="abutton color4" onclick="show('4');">4</button>
+            <button type="button" class="abutton color5" onclick="show('5');">5</button>
+            <button type="button" class="abutton color2" onclick="show('6');">6</button>
+            <button type="button" class="abutton color4" onclick="show('7');">7</button>
+            <button type="button" class="abutton color3" onclick="show('8');">8</button>
+            <button type="button" class="abutton color5" onclick="show('9');">9</button>
+            <button type="button" class="abutton color1" onclick="show('10');">10</button>
+            <button type="button" class="abutton color1" onclick="clears('C');">C</button>
+            <button type="button" class="abutton color1" onclick="plus('+');">+</button>
+            <button type="button" class="abutton color1" onclick="minus('-');">-</button>
+            <button type="button" class="abutton color1" onclick="multiply('*');">*</button>
+            <button type="button" class="abutton color1" onclick="equals('=');">=</button>
+            <button type="button" class="abutton color1" onclick="play();" id="playBtn"> Play </button>
+
+
+
+
+        </div>
+        <div class="col-3 div">
+            <div class="col-12 smalldiv smalldiv1">
+                <!-- <video id="myVideo"></video> -->
+                <image class="input" type="image" style="background-image:url(image3.jpg);" id="imagebox">
+                    <video id="video"> <source src='myvid'></video>
+                <video type="video" height="70px"; width="150px" id="forPostyourvideo" src="https://www.youtube.com/watch?v=hq3yfQnllfQ&t=159s"></video>
+            </div>
+            <div class="col-12 smalldiv1">
+                <input class="input" style="background-image:url(image3.jpg);" type="text" id="calculatorTextBox"
+                    style="font-size: 35px;">
+            </div>
+
+        </div>
+    </div>
+    <script type="module" src="tab.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
